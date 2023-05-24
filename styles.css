@@ -6,27 +6,23 @@
 html {
   height: 100%;
 }
-
 body {
-  background: linear-gradient(0deg, #b7b7b7 0%, #fff 70%);
+  background: linear-gradient(0deg, #786fa6 0%, #fff 90%);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0 16px;
 }
-
 header {
   background-color: steelblue;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
-
 header h1 {
   color: #fff;
   font-family: ;
   font-weight: 200;
 }
-
 footer {
   position: fixed;
   left: 0;
@@ -37,7 +33,6 @@ footer {
   text-align: center;
   padding: 20px;
 }
-
 footer p {
   color: black;
 }
@@ -62,7 +57,6 @@ footer p {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
-
 .note button {
   position: relative;
   float: right;
@@ -74,7 +68,6 @@ footer p {
   cursor: pointer;
   outline: none;
 }
-
 form {
   position: relative;
   width: 480px;
@@ -108,28 +101,20 @@ form button {
   cursor: pointer;
   outline: none;
 }
-
 .weather-container {
   position: absolute;
   top: 0;
   right: 0;
   margin-top: 1.5rem;
   margin-right: 1.5rem;
-}
-
+} 
 .intro {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border: 1px solid black;
+  position: absolute;
+  padding: 5px;
   font-size: 1.5rem;
   line-height: 1.2;
   text-align: center;
   font-family: sans-serif;
-  margin-top: 20px;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 20px auto;
 }
 
-#intro {
-  color: #6aacf7;
-}
